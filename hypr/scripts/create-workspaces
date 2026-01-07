@@ -1,6 +1,0 @@
-#!/bin/bash
-for i in {1..5}; do
-  hyprctl dispatch workspace $i
-  sleep 0.1
-done
-hyprctl dispatch workspace 1
